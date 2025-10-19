@@ -1,0 +1,25 @@
+﻿using System;
+using System.Reflection;
+using System.Windows.Forms;
+
+namespace UniversalUtility
+{
+    internal static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainMenu());
+
+            foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
+            {
+                Console.WriteLine(name);
+            }
+        }
+    }
+}
