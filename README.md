@@ -1,2 +1,2 @@
-# UniversalUtility
+# UniversalUtility (Only Ukrainian language)
 A desktop utility built with C# and Windows Forms for basic system maintenance and quick access to commonly used applications. Features include cleaning temporary system files, freeing RAM, launching Windows system tools (PowerShell, Command Prompt, Registry Editor, Device Manager, System Information), and installing development environments, popular browsers, utilities, gaming platforms, and communication applications.
